@@ -12,6 +12,8 @@ namespace BPServer
     {
         public static void Main(string[] args)
         {
+            GameRoom.Instance.LogState();
+            
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
