@@ -25,9 +25,9 @@ namespace BPServer {
         public GameState State;
         public DateTime NextStateTime;
 
-        const float gameDuration = 10.0f;
-        const float resultsDuration = 10.0f;
-        const float leaderboardDuration = 10.0f;
+        const float gameDuration = 120.0f;
+        const float resultsDuration = 15.0f;
+        const float leaderboardDuration = 15.0f;
 
         Timer timer;
         AutoResetEvent resetEvent = null;
